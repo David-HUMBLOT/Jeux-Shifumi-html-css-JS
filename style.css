@@ -1,0 +1,423 @@
+body{
+    background-color: black;
+    background-image: url(IMG/vaporwave-background-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+/**Cadre A***************************
+****************************************************************
+***************************************************************
+*********************************************/
+div.player{
+    border: 2px white solid;
+    background-color:rgba(189, 61, 11, 0.205); 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   /* align-items: center;*/
+    height:200px ;
+    width: 700px;
+}
+div.box1{
+    border: 2px black solid;
+    background-color:rgba(0, 0, 0, 0.459);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    align-content:center;
+    height:160px ;
+    width: 280px;
+}
+
+div.Message{
+    border:4px black solid;
+    background-color: rgb(184, 163, 163);
+   align-items: center;
+   display: flex;
+   align-content:center;
+   justify-content: center;
+    height:100px ;
+    width: 260px;
+    color:rgb(31, 109, 119);
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+}
+
+div.Message2{
+    border:4px black solid;
+    background-color: rgb(184, 163, 163);
+   align-items: center;
+   display: flex;
+   align-content:center;
+   justify-content: center;
+    height:100px ;
+    width: 260px;
+    color:rgb(31, 109, 119);
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+}
+div.name{
+    border: 3px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgba(0, 0, 255, 0.246);
+    height:50px ;
+    width: 280px;
+}
+div.score {
+    border: 3px black solid;
+    background-color:rgba(255, 255, 255, 0.116);
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    height:50px ;
+    width: 280px;
+}
+div.box2{
+    border: 2px black solid;
+    background-color: rgba(0, 0, 0, 0.335);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height:160px ;
+    width: 320px;
+}
+
+div.IA{
+    border: 3px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgba(0, 0, 255, 0.246);
+    height:50px ;
+    width: 294px;
+}
+div.scoreIA {
+    border: 3px black solid;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color:rgba(255, 255, 255, 0.116);
+    height:50px ;
+    width: 294px;
+}
+#ldr1{
+    display: flex;
+    border:1px white solid;
+    background-color: gray;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+#ldr2{
+    display: flex;
+    border:1px white solid;
+    background-color:gray;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+#ldr3{
+    display: flex;
+    border:1px white solid;
+    background-color:gray;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+#ldr4{
+    display: flex;
+    border:1px white solid;
+    background-color:gray;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+#ldr5{
+    display: flex;
+    border:1px white solid;
+    background-color:gray;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+#ldr6{
+    display: flex;
+    border:1px white solid;
+    background-color:gray;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+div.led3{
+    display: flex;
+    border:1px white solid;
+    background-color: white;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+div.led4{
+    display: flex;
+    border:1px white solid;
+    background-color: white;
+    height:35px;
+    width: 35px;
+    border-radius: 100%;
+}
+div.led5{
+    display: flex;
+    border:1px rgb(255, 255, 255) solid;
+    background-color: white;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+
+div.information{
+    border:3px rgb(206, 29, 29) solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:yellowgreen solid;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height:100px ;
+    width: 250px;
+}
+
+div.text3{
+    border: black;
+    background-color: black;
+    height: 150px;
+    width: 100px;
+    color :green;
+    text-align:center ;   
+}
+
+/*****Fin cadre A*************************************
+**************************
+***********************************************
+********Debut Cadre B***************************/
+
+div.fight{
+    border: 2px white solid;
+    background-color:rgba(182, 7, 7, 0.342);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height:200px ;
+    width: 700px;
+}
+
+div.actuser{
+    border: 2px white solid;
+    background-color:rgba(0, 0, 0, 0.315);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height:160px ;
+    width: 320px;
+}
+
+div.actuser1{
+    border: 2px white solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("IMG/interogation.jpg" ) ;
+    background-size: cover;
+    height:100px ;
+    width: 100px;
+}
+
+div.VS{
+    border:5px rgb(51, 2, 27) solid;
+    border-radius:20px;
+    height: 48px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    animation: blink 1s infinite;
+  }
+  @keyframes blink { 
+    0% { opacity:10; }
+    50% { opacity:10; } 
+    100% { opacity:10; }
+}
+
+div.boxcompteur{
+    border: 2px white solid;
+    background-color:rgba(24, 27, 75, 0.596);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height:180px ;
+    width: 300px;
+}
+
+div.compteur.txt{
+        border:1px black solid;
+        background-color: rgba(119, 40, 12, 0.726);
+        width:200px;
+        height: 80px;
+    }
+
+div.actIA{
+    border: 2px white solid;
+    background-color:rgba(0, 0, 0, 0.315);;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+    height:160px ;
+    width: 320px;
+}
+
+div.actIA1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-image: url("IMG/interogation.jpg" ) ;
+    background-size: cover;
+    border: 2px white solid;
+    height:100px ;
+    width: 100px;
+}
+
+/*********FIN CADRE B*********************************
+***************************************************
+********************
+***********DEBUT CADRE C*****************************************/
+
+div.action{
+    border: 2px white solid;
+    height:200px ;
+    width: 700px;
+}
+
+div.choix{
+    border: 2px rgb(3, 3, 47) solid;
+   background-color: rgba(17, 2, 58, 0.493);
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+    height: 30px;
+
+}
+
+div.consigne{
+    border: 2px rgba(0, 0, 0, 0.726) solid;
+    background-color: rgba(8, 17, 56, 0.486);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height:30px ;
+    width: 500px;
+
+}
+
+.txt{
+    color:greenyellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    font-size: 20px;
+}
+
+.nbr{color:rgb(194, 0, 103);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 72px;
+}
+
+div.selection{
+    border: 2px white solid;
+    background-color:rgba(230, 19, 19, 0.151);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 114px;
+}
+
+
+div.pierre{
+    border: white solid;
+    background-color:rgba(224, 2, 2, 0.335);
+    height:100px ;
+    width: 100px;}
+/**aplication effet visuel image**/
+
+div.pierre:hover{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+div.feuille{
+    
+    border: 2px white solid;
+    background-color:rgba(224, 2, 2, 0.335);
+    height:100px ;
+    width: 100px;}
+/**zoom image**/
+div.feuille:hover{
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3); }
+
+div.ciseaux{
+    border: 2px white solid;
+    background-color:rgba(224, 2, 2, 0.335);
+    height:100px ;
+    width: 100px;}
+/**ZOOM IMAGE CISEAUX**/
+div.ciseaux:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3); }
+
+#shifumi{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    animation: blink 2s infinite;
+  }
+  @keyframes blink { 
+    0% { opacity:10; }
+    50% { opacity:10; } 
+    100% { opacity:0; }
+}
+
+div.titre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+}
+
+/*****FIN CADRE C************************
+**********************************************************
+*************************************
+*************************************************/

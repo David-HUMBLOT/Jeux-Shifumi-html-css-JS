@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+
+<body onload="saisie();"  >
+    <div class="player">
+        <div class="box1">
+            <div class="name">
+                <p class="txt" id="Name"> <strong>NAME PLAYER</strong></p>
+            </div>
+            <div class="score">
+                <div id= "ldr1" class="led3"></div>
+                <div id= "ldr2" class="led4"></div>
+                <div id= "ldr3" class="led5"></div>
+            </div>
+
+            <div id="msg"  class="Message">gagner ou perdu ou egal</div>
+
+
+        </div>
+        <div class= "information">
+            <div class="text3"><p>VICTOIRE A LA SUITE:</p><br> <p id="suitevct">O</p></div>
+
+        </div>
+
+        <div class=box2>
+            <div class="IA">
+                <p class="txt"> <strong>COMPUTER</strong></p>
+            </div>
+            <div class="scoreIA">
+                <div id= "ldr4" class="led3"></div>
+                <div id= "ldr5" class="led4"></div>
+                <div id= "ldr6" class="led5"></div>
+            </div>
+            <div class="Message2"><div>     Est tu compétant humain ?</div></div>
+        </div>
+    </div>
+    <div class="fight">
+        <div class="actuser">
+            <div id="ACT" class="actuser1"> </div>
+        </div>
+        <div class="boxcompteur">
+            <img  src="IMG/5270582-4644160274-vs.pn.png" width="180" height="80">
+            <div class="compteur">
+                <p class="txt"><strong>TOUR NUMERO :<br>
+                    </strong></p>
+            </div>
+            <div id="vs" class="VS" ><p class="nbr" id="NBR"> <strong>0</strong></p></div>
+        </div>
+        <div class="actIA">
+            <div id="ImgOrdi1" class="actIA1"></div>
+        </div>
+    </div>
+    <div class="action">
+        <div class="choix">
+            <div class="consigne">
+                <h9 class="txt"><strong>SELECT YOUR CHOISE :</strong></h9>
+            </div>
+        </div>
+        <div class="selection">
+            <div class="pierre" onclick="P()"> <img src="IMG/pierre.png" width="100" height="100"> </div>
+            <div class="feuille" onclick="F()"><img src="IMG/feuille.png" width="100" height="100"></div>
+            <div class="ciseaux" onclick="C()"><img src="IMG/ciseaux.png" width="100" height="100"></div>
+        </div>
+        <div class="titre">
+            <h8 id="shifumi"><strong>S H I F U M I</strong></h8>
+        </div>
+    </div>
+    <!--Cadre C-->
+
+</body>
+
+</html>
